@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ajazz AJ159 APEX</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0f1115;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(90deg, #0077ff, #00bbff);
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #00bbff;
+    }
+    .feature-list {
+      list-style: none;
+      padding: 0;
+    }
+    .feature-list li {
+      margin-bottom: 10px;
+      position: relative;
+      padding-left: 20px;
+    }
+    .feature-list li::before {
+      content: '✔';
+      position: absolute;
+      left: 0;
+      color: #00bbff;
+    }
+    .button {
+      background-color: #00bbff;
+      color: #fff;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin: 10px;
+      display: inline-block;
+      text-decoration: none;
+    }
+    .button:hover {
+      background-color: #0077ff;
+    }
+    .slider {
+      display: flex;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      gap: 10px;
+      padding: 20px;
+    }
+    .slider img {
+      max-height: 300px;
+      border-radius: 10px;
+    }
+    .benefits {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .benefit {
+      background-color: #1a1d24;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 400px;
+      margin: auto;
+    }
+    input, textarea {
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      font-size: 1rem;
+    }
+    input[type="submit"] {
+      background-color: #00bbff;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    input[type="submit"]:hover {
+      background-color: #0077ff;
+    }
+    .faq {
+      background-color: #1a1d24;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    .faq h3 {
+      color: #00bbff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #181a1f;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ajazz AJ159 APEX</h1>
+    <p>Флагманська ігрова миша з ультрасучасними технологіями</p>
+    <a class="button" href="#buy">Купити зараз</a>
+    <a class="button" href="#features">Дізнатись більше</a>
+  </header>
+
+  <section class="section">
+    <div class="slider">
+      <img src="https://m.media-amazon.com/images/I/61U6TFwuP5L._AC_SL1500_.jpg" alt="Ajazz AJ159 View 1">
+      <img src="https://m.media-amazon.com/images/I/71LKwN4rwXL._AC_SL1500_.jpg" alt="Ajazz AJ159 View 2">
+      <img src="https://m.media-amazon.com/images/I/71s2MEKnVXL._AC_SL1500_.jpg" alt="Ajazz AJ159 View 3">
+    </div>
+  </section>
+
+  <section class="section" id="features">
+    <h2>Основні характеристики</h2>
+    <ul class="feature-list">
+      <li>Три режими: 2.4 ГГц, Bluetooth 5.0, USB-C</li>
+      <li>Сенсор PixArt PAW3950, до 30 000 DPI</li>
+      <li>Частота опитування до 8000 Гц</li>
+      <li>Вага: 56 г</li>
+      <li>Huano перемикачі (до 100 млн кліків)</li>
+      <li>Магнітна зарядна станція з екраном</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Переваги AJ159 APEX</h2>
+    <div class="benefits">
+      <div class="benefit">
+        <h3>Ультралегка</h3>
+        <p>Всього 56 г для максимальної маневреності</p>
+      </div>
+      <div class="benefit">
+        <h3>Сенсор PAW3950</h3>
+        <p>Надточність і стабільність у кожному русі</p>
+      </div>
+      <div class="benefit">
+        <h3>3 режими</h3>
+        <p>Гнучкість підключення для будь-якого ґеймінгу</p>
+      </div>
+      <div class="benefit">
+        <h3>Док-станція</h3>
+        <p>Магнітна зарядка з дисплеєм — зручно й красиво</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Комплектація</h2>
+    <ul class="feature-list">
+      <li>Миша Ajazz AJ159 APEX</li>
+      <li>Магнітна док-станція</li>
+      <li>USB-C кабель</li>
+      <li>Інструкція користувача</li>
+    </ul>
+  </section>
+
+  <section class="section" id="buy">
+    <h2>Залишити заявку</h2>
+    <form>
+      <input type="text" placeholder="Ваше ім'я" required>
+      <input type="email" placeholder="Ваш Email" required>
+      <textarea rows="4" placeholder="Повідомлення або запитання..."></textarea>
+      <input type="submit" value="Надіслати">
+    </form>
+  </section>
+
+  <section class="section faq">
+    <h2>Часті запитання</h2>
+    <h3>Чи підтримується зарядка під час використання?</h3>
+    <p>Так, мишу можна використовувати в дротовому режимі одночасно із зарядкою.</p>
+
+    <h3>Чи є софт для налаштувань?</h3>
+    <p>Так, Ajazz надає програму для перепризначення кнопок і налаштування DPI.</p>
+
+    <h3>Чи працює на Mac?</h3>
+    <p>Так, миша підтримує підключення до macOS через Bluetooth або USB.</p>
+  </section>
+
+  <footer>
+    Створено спеціально для тебе ❤
+  </footer>
+</body>
+</html>
